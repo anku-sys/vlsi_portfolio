@@ -30,6 +30,9 @@ The highlight of this repository is a parallel spatial computing engine designed
 * **`dff.v`**: Edge-triggered Data Flip-Flop.
 * **`and_gate.v`**: Basic combinational logic.
 
+### 5. Adders & Arithmetic Logic Unit (ALU)
+* **`alu_8bit.v`**: A multi-function 8-bit Calculator/ALU executing addition, subtraction, multiplication, and division based on a 2-bit opcode, including divide-by-zero hardware exception handling.
+* **`rca_4bit.v` & `cla_4bit.v`**: Area vs. Speed tradeoff demonstration. Synthesized using Yosys to compare the low-area Ripple Carry Adder against the high-speed Carry Look-Ahead Adder.
 ---
 
 ## 🛠️ How to Run the Simulations
